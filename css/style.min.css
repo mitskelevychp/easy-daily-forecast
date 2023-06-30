@@ -1,0 +1,69 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+ol,
+ul,
+li,
+aside,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+.root {
+  padding: 25px;
+  font-size: 16px;
+}
+.humidity-green {
+  color: green;
+  display: inline-block;
+}
+.humidity-light-blue {
+  color: #00aeff;
+  display: inline-block;
+}
+.humidity-blue {
+  color: #001aff;
+  display: inline-block;
+}
+.humidity-text {
+  display: inline-block;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: gray;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+p {
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=style.min.css.map */
